@@ -3,3 +3,9 @@ pandas
 matplotlib
 ipywidgets
 jupyter_ui_poll
+time
+random
+Ipython.display
+requests
+bs4
+scipy
