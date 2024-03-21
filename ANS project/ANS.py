@@ -13,9 +13,7 @@ import json
 '''I acknowlage the use of AI tools(ChatGPT.3.5) by OpenAI
 URL:https://chat.openai.com/c/b08d946c-eb37-4dd9-b302-2df65b8e8bbf
 for some background researches on ANS test knowledge and fixing some bugs
-related to packages ipywidgets which is about the relationship of time of button
-and input,mainly in the function willingness_checker() and usage of ConnectionError
-at ANS_test() function'''
+related to packages ipywidgets,mainly in the function willingness_checker()'''
 
 empty_frame = Image('0-0.png',width=600)
 
@@ -253,9 +251,7 @@ def Willingness_checker(Overall_data):
     age_widget = widgets.Text(placeholder='Age')
     display(age_widget)
     #age = age_widget.value
-    
-    #Learned the usage of widget.Text by combining website sources and ChatGPT which
-    #had show me an example of widget use
+
     gender_widget = widgets.Text(placeholder = 'Gender (F/M)')
     display(gender_widget)
 
@@ -269,7 +265,6 @@ def Willingness_checker(Overall_data):
     display(alc_widget)
 
     willingness = button_yn(-1) #use -1 as class example
-    
     if willingness == 'Yes':
         #To allow the input of value
         name = name_widget.value
@@ -285,11 +280,9 @@ def Willingness_checker(Overall_data):
         Overall_data['Smoking']=smoc
         Overall_data['Alcohol_consumption']= alc
         print(Overall_data)
-        return True
 
     else:
         print('data delected')
-        return False
 
 #Function that saving the test results to local enviorments
 def saving_to_discs(single_results,if_csv,if_append):
@@ -337,22 +330,17 @@ def Main():
                     'reactiontime_by_question':[],'Mark_by_question':[],
                     'left_by_question':[],'right_by_question':[],
                     }
+
     while True: #While true so we can wait the button
         if_start = button_start()
+        print(if_start)
         if if_start == True:
+            single_results = multiple_tests(answer_dict, overall_data)
+            print('Test_overed')
             print(Consent_info)
-            willingness = Willingness_checker(overall_data)
-            if willingness == True:
-                clear_output(wait=False)
-                print('Start in 3 seconds')
-                time.sleep(3)
-                single_results = multiple_tests(answer_dict, overall_data)
-                print('Test_overed')
-                clear_output(wait=False)
-                return single_results
-            else:
-                print('We would not save any data online')
-                return overall_data #Empty in name to be selected
+            Willingness_checker(overall_data)
+            clear_output(wait=False)
+            return single_results
         else:
             print("Your session has expired")
             break
