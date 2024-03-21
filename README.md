@@ -11,18 +11,6 @@ All the test data and details are anonymous.
 The following Package may be required:
 Numpy，Pandas， ipywidgets， IPython.display， random， os， re， time，jupyter_ui_poll， requests，bs4，json
 
-V.2.0.0 changes:
-
-ANS_test:
-Move the consent and info module at the beginning of the test.
-Some changes in the User interphases
-Details of AI usage acknowledgement
-
-Math test:
-
-Memory test:
-
-Spacial reasoning tests:
 
 
 
