@@ -8,7 +8,7 @@ This repository contains four cognitive tests used to examine variation in cogni
 Insert description of test
 
 ### Memory Test
-Insert description of test
+This test ask users to do math calculation and give answer in short time: number with operator will appear and disappear after 2s. At the end of the test, users' details information, average time spend for easy part and hard part questions, total time,and final score will be recorded. Also users would know their results at the end of the test.
 
 ### Spatial Reasoning Test
 This test requires the user to compare a 3D arrangement of coloured cubes to four possible 2D plans of different orientations and determine which is not possible. At the end of the test, average time, total time, and number of incorrect inputs will be recorded. The user will also be given the option to provide data about themselves so that their results can be used in our analyses, however the test can be performed even without user consent, and no personal data will be recorded.
@@ -78,19 +78,9 @@ Fixed
 * Issue with window not snapping back to the top after clear_output() is called
 
 ### Mathematical Ability Test
-Added
-*
-*
-*
 Changed
-*
-*
-*
-Removed
-*
-*
-*
+* Format of code so that all code is imported from a .py file and users only have to run one code cell in an ipynb file
+* Interface change: the introdcution content, questions to collect user details is centered.
+  
 Fixed
-*
-*
-*
+* the 'def type_check' function for recognize if characters users enter is int or float, if not, users' answer would be recognize as inccorrect.
