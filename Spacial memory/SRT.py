@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from jupyter_ui_poll import ui_events
 import pandas as pd
 from scipy import stats
+import json
 
 '''
 I acknowledge the use of AI tools (ChatGPT.3.5) by OpenAI to help with debugging/ fixing issues related to the ipywidgets module
