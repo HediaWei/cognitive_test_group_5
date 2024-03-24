@@ -65,7 +65,7 @@ Fixed
 * Buttons added mean there is no uncertaincy in correct wording for answers
 * Sending data about smoking, drinking and occupation to the google forms
 * CLearing output of certain bits of data before printing the next so the user does not get confused
-*
+
 
 ### Spatial Reasoning Test
 Added
