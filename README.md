@@ -8,7 +8,7 @@ This repository contains four cognitive tests used to examine variation in cogni
 Insert description of test
 
 ### Memory Test
-This test asks users to observe a grid of coloured shapes for 20 seconds, then answer around 5 questions testing their memory of the grid. The users will be tested on 3 grids each containing different shapes and colours. At the end of the test, users' details information, score for each grid and total score will be recorded and uploaded to a google form. The test can also be performed even without user consent, and no personal data will be recorded. Users will also know their results at the end of the test, as well as their scores after each round. 
+This test asks users to observe a grid of coloured shapes for 25 seconds, then answer around 5 questions testing their memory of the grid. The users will be tested on 3 grids each containing different shapes and colours. At the end of the test, users' details information, score for each grid and total score will be recorded and uploaded to a google form. The test can also be performed even without user consent, and no personal data will be recorded. Users will also know their results at the end of the test, as well as their scores after each round. 
 
 ### Spatial Reasoning Test
 This test requires the user to compare a 3D arrangement of coloured cubes to four possible 2D plans of different orientations and determine which is not possible. At the end of the test, average time, total time, and number of incorrect inputs will be recorded. The user will also be given the option to provide data about themselves so that their results can be used in our analyses, however the test can be performed even without user consent, and no personal data will be recorded.
@@ -57,6 +57,7 @@ Changed
 * Images were made bigger, as when they were small it was much more difficult to memorise
 * Format of code so that all code is imported from a .py file and users only have to run one code chunk in an ipynb file
 * Increased size of the text, mainly the questions
+* Increased time that the grid is shown before disappearing 
   
 Removed
 * One image/grid as the test took users too long with 4 different grids
