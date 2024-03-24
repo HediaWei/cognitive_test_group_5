@@ -8,7 +8,7 @@ This repository contains four cognitive tests used to examine variation in cogni
 Insert description of test
 
 ### Memory Test
-This test ask users to do math calculation and give answer in short time: number with operator will appear and disappear after 2s. At the end of the test, users' details information, average time spend for easy part and hard part questions, total time,and final score will be recorded. Also users would know their results at the end of the test.
+This test asks users to observe a grid of coloured shapes for 20 seconds, then answer around 5 questions testing their memory of the grid. The users will be tested on 3 grids each containing different shapes and colours. At the end of the test, users' details information, score for each grid and total score will be recorded and uploaded to a google form. The test can also be performed even without user consent, and no personal data will be recorded. Users will also know their results at the end of the test, as well as their scores after each round. 
 
 ### Spatial Reasoning Test
 This test requires the user to compare a 3D arrangement of coloured cubes to four possible 2D plans of different orientations and determine which is not possible. At the end of the test, average time, total time, and number of incorrect inputs will be recorded. The user will also be given the option to provide data about themselves so that their results can be used in our analyses, however the test can be performed even without user consent, and no personal data will be recorded.
@@ -47,20 +47,24 @@ Fixed
 
 ### Memory Test
 Added
-*
-*
-*
+* Doc strings to each function to allow the marker/anyone reading the code to understand it easier
+* Buttons instead of typing out the answers - making it more accessible to non-native speaking users and prevents the test
+  from being too long
+* Spaces between the questions and the answer buttons to enhance the program's presentation
+* A consent button, coloured red for no and green for yes, to be as clear as possible for the user
+  
 Changed
-*
-*
-*
+* Images were made bigger, as when they were small it was much more difficult to memorise
+* Format of code so that all code is imported from a .py file and users only have to run one code chunk in an ipynb file
+* Increased size of the text, mainly the questions
+  
 Removed
-*
-*
-*
+* One image/grid as the test took users too long with 4 different grids
+  
 Fixed
-*
-*
+* Buttons added mean there is no uncertaincy in correct wording for answers
+* Sending data about smoking, drinking and occupation to the google forms
+* CLearing output of certain bits of data before printing the next so the user does not get confused
 *
 
 ### Spatial Reasoning Test
