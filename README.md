@@ -14,7 +14,7 @@ This test asks users to observe a grid of coloured shapes for 25 seconds, then a
 This test requires the user to compare a 3D arrangement of coloured cubes to four possible 2D plans of different orientations and determine which is not possible. At the end of the test, average time, total time, and number of incorrect inputs will be recorded. The user will also be given the option to provide data about themselves so that their results can be used in our analyses, however the test can be performed even without user consent, and no personal data will be recorded.
 
 ### Mathematical Ability Test
-Insert description of test
+This test requires the user to answer 15 math calculation question, number with operator would disappear after 2 seconds, and the question difficulty would be increase. In this test, the average time for easy and hard part question, total time, final grade and user's details information were recorded. To run the test code in V2.0.0_math_ability.ipynb  file, the V200_math_ability.py file should be download and put both file into the same folder.
 
 ## Installation
 To play the tests, users will need to have the most current version of Jupyter lab/notebook installed, as these tests make use of Jupyter-specific packages. They will also need to install all V.2.0.0 files in the repository. Without all of these, the test will not be able to run. Users should make sure that all files are saved to their current Jupyter working directory.
