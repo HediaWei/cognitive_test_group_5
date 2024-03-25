@@ -37,7 +37,7 @@ Changed
 * Moved the consent check from the end to the begining of the test
 
 Removed
-*the consent check at the end of the test
+* the consent check at the end of the test
 
 Fixed
 * Improve the logic of the Main function and willingness_check so now willingness_check retutn a boolean variable
