@@ -5,7 +5,7 @@ This repository contains four cognitive tests used to examine variation in cogni
 ## Cognitive Tests
 
 ### ANS Test
-Insert description of test
+On each trial of this task, two dot arrays ranging in numerosity from 9 to 21 were presented for 750 ms on each side of a central fixation cross, after which only the fixation cross remained on the screen. Participants were asked to judge which side contained more dots as quickly and as accurately as possible by a manual (left or right index fingers) button press. The response was accepted from stimulus onset until 3 s after the stimulus onset, which was followed by an intertrial interval of 1.5 s before the onset of the following trial. 
 
 ### Memory Test
 This test asks users to observe a grid of coloured shapes for 25 seconds, then answer around 5 questions testing their memory of the grid. The users will be tested on 3 grids each containing different shapes and colours. At the end of the test, users' details information, score for each grid and total score will be recorded and uploaded to a google form. The test can also be performed even without user consent, and no personal data will be recorded. Users will also know their results at the end of the test, as well as their scores after each round. 
