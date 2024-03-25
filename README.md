@@ -29,15 +29,15 @@ To run the tests, users simply need to play the code chunk in the user interface
 
 ### ANS Test
 Added
-*Add a much clearer description of the user interface
-*Added a 3s time wait between button clicks and questions pops out to allow a responce time
-*Add a logic to check consent before test start
+* Add a much clearer description of the user interface
+* Added a 3s time wait between button clicks and questions pops out to allow a responce time
+* Add a logic to check consent before test start
 Changed
-*Moved the consent check from the end to the begining of the test
-*Remove the consent check at the end of the test
+* Moved the consent check from the end to the begining of the test
+* Remove the consent check at the end of the test
 
 Fixed
-*Improve the logic of the Main function and willingness_check so now willingness_check retutn a boolean variable
+* Improve the logic of the Main function and willingness_check so now willingness_check retutn a boolean variable
 
 ### Memory Test
 Added
